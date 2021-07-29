@@ -26,17 +26,34 @@
           <h2>Welcome!!!</h2>
             <img src="img/reading.jpg" alt="reading" class="mx-auto d-block img-fluid rounded" width="400" height="300"/>
         </div>
+        <div class="row">
         <div class="col-md-6">
             <img src="img/pacman.jpg" alt="pacman" class="mx-auto d-block img-fluid rounded" width="400" height="300"/>
         </div>
-        <div class="col-md-6">
-          <h2>Web Extra's!!!</h2>
-            <img src="img/ipod.jpg" alt="ipod" class="mx-auto d-block img-fluid rounded" width="400" height="300"/>
+        <div class="row">
+        <div class="col-md-6 mx-auto">
+
+          <div class="card">
+            <img class="card-img-top" src="img/ipod.jpg" alt="ipod">
+            <div class="card-body">
+              <h4 class="card-title">Web Extra's!!!</h4>
+              <p class="card-text">Here some links to help with web-dev </p>
+
+              <ul>
+                <li><a href="#" class="card-link">JSON Gist Profile</a>
+                  <li><a href="https://gist.github.com/barrycumbie/e50b5a9fe12e5d4203f2e006ec748ff6#gistcomment-3798457" target="_blank" class="card-link">CIS 376 Class Gist</a></li>
+                    <li><a href="https://gist.github.com/barrycumbie/e50b5a9fe12e5d4203f2e006ec748ff6#gistcomment-3798457" target="_blank" class="card-link">CIS 376 Final Project Part 1 (of 2) Instructions</a></li>
+                    <li><a href="https://gist.github.com/barrycumbie/e50b5a9fe12e5d4203f2e006ec748ff6#gistcomment-3811435" target="_blank" class="card-link">CIS 376 Final Project Part 2 (of 2)</a></li>
+                       <li><a href="https://www.w3schools.com/bootstrap4/bootstrap_cards.asp" target="_blank" class="card-link">Cards for W3C BS4</a></li>
+                            </ul>
           </div>
+        </div>
+      </div>
+    </div>
   
   <!-- Links -->
   <ul class="navbar-nav">
-    <a class="navbar-brand" href="#">Click any of these three links to look at other web stuff!!!</a>
+    <a class="navbar-brand" href="#"<p class="card-text">Here's some links showing some repos/projects</p>
     <li class="nav-item">
       <a class="nav-link" target="_blank" href="page2.html">Projects/Side Projects</a>
     </li>
@@ -58,21 +75,39 @@
       </div>
 
       <div class="row">
+        <div class="col-md-6 mx-auto">
+
+          <div class="card">
+            <div class="card-body">
+
+              <h4 class="card-title">Web Development Road Map</h4>
+              <p class="card-text">Web-Dev Guide</p>
+              <iframe class="container-fluid" width="560" height="315" src="https://www.youtube.com/embed/SBB1YtwODT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab"  href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+          </li>
+      </ul>
+
+
           <div class="column"></div>
           <div class="column"></div>
           <div class="column"></div>
-<!--
-          <table>
-            <tr>
-              <td><img src="img/reading.jpg" alt="reading" class="mx-auto d-block img-fluid rounded" width="400" height="300"/>  
-              </td>
-              <td><img src="img/pacman.jpg" alt="pacman" class="mx-auto d-block img-fluid rounded" width="400" height="300"/>
-              </td>
-              <td><img src="img/ipod.jpg" alt="ipod" class="mx-auto d-block img-fluid rounded" width="400" height="300"/>
-              </td>
-            </tr>
-          </table>
-        -->
+
           <h1>About Me</h1>
 
     <pre>
@@ -86,7 +121,12 @@
         "side projects": "I haven't worked on any side projects nor are there any side projects that I'm working on but hopefully will get to do some in this class and with others."
     }
 
-    </pre>          
+    </pre>  
+    
+    <script src="./scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </body>
 
 </html>
